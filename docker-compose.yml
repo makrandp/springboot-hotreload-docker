@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  hotreload-app:
+    build: .
+    ports:
+      - 8080:8080
+    networks:
+      - hotreload-network
+    volumes:
+      - ~/java/springboot/hotreload:/app/hotreload
+
+networks:
+  hotreload-network:
