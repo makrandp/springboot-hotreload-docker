@@ -3,7 +3,7 @@
 ## Setup
 - `docker-compose up --force-recreate`
 - In Eclipse:
-  - Run Configurations -> Java Application -> New
+  - Go to Run -> Run Configurations -> Java Application -> New
   - Choose `org.springframework.boot.devtools.RemoteSpringApplication` as the `main class`
   - Choose `hotreload` as the project
   - Set http://localhost:8080 to program arguments
